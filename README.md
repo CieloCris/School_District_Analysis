@@ -24,19 +24,38 @@ We conduct the analysis with Python 3.9.7, Jupyter Notebook, and Pandas. We stud
 
 ## Results
 
-In the first analysis for the School District, we included all the student data, but in the second research, we remplaced the math and reading scores from the Ninth-grades of Thomas High School  with NaN (which means "Not a Number") because they cheated.
+In the second analysis we imported the dependencies and cleaned the data, removing suffixes and prefixes from the student names. The following steps are listed below:
 
-We also considered that there were 461 students in the Ninth-grade of Thomas High School (THS). That means that the dishonest studets represents only 1.2% of the total sample.
+* We replaced the math and reading scores from the Ninth-grades of Thomas High School with **NaN**, which means "Not a Number", because the students cheated on their assessments. The dishonest students were 461 out of 39,170 students, which signified 1.2% of the total sample.
 
-The following dataframes shows results of the School Distric of the first and second analysis, respectively:
+* After that change, we merged the _csv files_ into a new dataframe. We used various Pandas and Python methods and functions to create a dataframe of the School District. The following dataframes shows results of the School Distric of the first and second analysis, respectively:
 
-0distric_summay
+Imagen de distric 1
+imagen de distric 2
 
-1_challenge_distric_summary
+As we can see, there were no significant changes in the average scores and passing percentages, only a slight decrease in the data.
 
-As we can see, the data modifications didn't have huge impacts on the School District's analysis. The metrics only decreased a little.
+* The next step was to made a dataframe showing the academic performance and the budget per student by school. In the "Per School Summary" we can see that Thomas High School lowered its averages math and reading scores and passing math and reading percentages. The Overall Passing Percentage dropped from 90% to 65%, as we can notice in the following dataframe. 
 
-How is the District Summary afected?
+Imagen 3
+
+* After reviewing these results, we got the number and data of students from 10th to 12th grades at Thomas High School to repeat the analysis (without considering the 9th-grade students).
+
+* The analysis was performed again and we obtained a _new_ Per School Analysis dataframe. The results are shown in the following screenshot:
+
+Imagen 3
+
+As can be seen, with these adjustments and modifications, the changes in the Passing Percentages and Averages Scores of Thomas High School (THS) are no longer the same: 
+
+* The new Average Math Score is now 83.350937; the Average Reading Score changed to 83.896082, the Passing Math Percentage now is 93.185670%, Passing Reading Percentage adjusted to 97.018739%, and Overall Passing change to 90.630324%.
+
+-After modifying the data for Thomas High School, we identified the best and worst performing schools.
+
+
+
+
+
+As we can see, there were no significant changes in the average scores and passing percentages, only a slight decrease in the data.How is the District Summary afected?
 
 How is the School Summary affected?
 
