@@ -12,16 +12,19 @@ We analyzed 15 high schools, 8 of the Charter type and 7 of the District type. W
 ## Resources
 
 We conduct the analysis with Python 3.9.7, Jupyter Notebook, and Pandas. We studied  two CSV files to report the results.
-Data Source:
-shools_complete.csv
-students_complete.csv
-Data size: 
-schools_complete.csv size.- 16 rows and 5 columns (_Shool ID, school_name, type, size, budget_).
-students_complete.csv size.- 39,171 rows and 7 columns (_Student ID, student_name, gender, grade, school_name, reading_score, math_scoore_).
+
+* Data Source:
+  - shools_complete.csv
+  - students_complete.csv
+
+* Data size: 
+  - schools_complete.csv size.- 16 rows and 5 columns (_Shool ID, school_name, type, size, budget_).
+  - students_complete.csv size.- 39,171 rows and 7 columns (_Student ID, student_name, gender, grade, school_name, reading_score, math_scoore_).
 Software: Python 3.9.7, Anaconda, Jupyter Notebook, and Pandas.
 
 ## Results
-In the first analysis for the School District, we included all the student data, but in the second research, we remplaced the math and reading scores from the 9th grades of Thomas High School  with NaN (which means "Not a Number") because they cheated.
+
+In the first analysis for the School District, we included all the student data, but in the second research, we remplaced the math and reading scores from the Ninth-grades of Thomas High School  with NaN (which means "Not a Number") because they cheated.
 
 We also considered that there were 461 students in the Ninth-grade of Thomas High School (THS). That means that the dishonest studets represents only 1.2% of the total sample.
 
