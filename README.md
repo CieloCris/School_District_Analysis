@@ -30,21 +30,23 @@ In the second analysis, we imported the dependencies and cleaned the data, remov
 
 The following dataframes show the results of the School District of the first and second analysis, respectively:
 
-Imagen de distric 1
-imagen de distric 2
+![Alt text](/Resources_/0distric_summary.png "imagen1")
+
+![Alt text](/Resources_/1_challenge_distric_summary.png "imagen2")
 
 As we can see, there were no significant changes in the average scores and passing percentages, only a slight decrease in the data.
 
 * The next step was to make a dataframe showing the academic performance and the budget per student by the school. In the "Per School Summary," we can see that Thomas High School lowered its Averages Math and Reading scores, and Passing Math and Reading Percentages. The Overall Passing Percentage dropped from 90.948012% to 65.076453%, as we can notice in the followings dataframes:
 
-Imagen 3 per school summary viejo
-Imagen 4 per school summary nuevo
+![Alt text](/Resources_/0per_school_summary.png "imagen3")
+
+![Alt text](/Resources_/challenge_per_school_summary.png "imagen4")
 
 * After reviewing these results, we got the number and data of students from 10th to 12th grades at Thomas High School to repeat the analysis (without considering the 9th-grade students).
 
 * The analysis was performed again and we obtained a _new_ Per School Analysis dataframe, adding the Spending Ranges (Per Student) column. The results are shown in the following screenshot:
 
-Imagen 5 - challenge_bins_school
+![Alt text](/Resources_/1per_school_summary_bins.png "imagen5")
 
 As can be seen, with these adjustments and modifications, the changes in the Passing Percentages and Averages Scores of Thomas High School (THS) are no longer the same: 
 
@@ -54,27 +56,29 @@ As can be seen, with these adjustments and modifications, the changes in the Pas
 
 The following dataframe shows the top 5 schools in the district:
 
-Imagen 6 - Top schools
+![Alt text](/Resources_/challenge_top_schools.png "imagen6")
 
 Despite having dropped 9th graders for cheating, We can observe that Thomas High School is still among the top-performing schools. Although there were changes in the average scores and passing percentages (because some points decreased), these didn't t portray an impact on the data.
 
 The bottom schools are presented in the following dataframe. In this case, there was no change in the school's data:
 
-Imagen 7 - Bottom schools
+![Alt text](/Resources_/challenge_botton_schools.png "imagen7")
 
 * Our next step was to collect the math and reading average scores and the passing math and reading percentage by grade and school. In the coming screenshots we show the dataframes in this regard:
 
-Imagen 8 grados mate
-Imagen 9 grados reading
+![Alt text](/Resources_/challenge_math_scores.png "imagen8")
+
+![Alt text](/Resources_/challenge_reading_scores.png "imagen9")
 
 We can observe that Thomas High School's 9th-grades data is shown as NaN and was not part of the analysis.
 
-
 * In the last section of the study, we analyzed the academic performance scores by school spending, school size, and school type.
 
-Imagen 10 Spending
-Imagen 11 size
-Imagen 12 type
+![Alt text](/Resources_/challenge_spending_summary.png "imagen10")
+
+![Alt text](/Resources_/challenge_size_summary.png "imagen11")
+
+![Alt text](/Resources_/challenge_type_summary.png "imagen12")
 
 After analyzing the previous dataframe, we can say there were no substantial changes in the data, but we can communicate that the budget per student doesn't have a decisive and unique influence on the math and reading scores and the approval percentages. That means that a school spending more per student will not always mean better academic performance.
 
