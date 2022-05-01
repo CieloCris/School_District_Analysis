@@ -28,7 +28,13 @@ In the first analysis for the School District, we included all the student data,
 
 We also considered that there were 461 students in the Ninth-grade of Thomas High School (THS). That means that the dishonest studets represents only 1.2% of the total sample.
 
-The following dataframe shows results of the School Distric after the second analysis was done.
+The following dataframes shows results of the School Distric of the first and second analysis, respectively:
+
+0distric_summay
+
+1_challenge_distric_summary
+
+As we can see, the data modifications didn't have huge impacts on the School District's analysis. The metrics only decreased a little.
 
 How is the District Summary afected?
 
