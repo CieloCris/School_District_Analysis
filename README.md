@@ -20,7 +20,7 @@ We conduct the analysis with Python 3.9.7, Jupyter Notebook, and Pandas. We stud
 * Data size: 
   - schools_complete.csv size.- 16 rows and 5 columns (_Shool ID, school_name, type, size, budget_).
   - students_complete.csv size.- 39,171 rows and 7 columns (_Student ID, student_name, gender, grade, school_name, reading_score, math_scoore_).
-Software: Python 3.9.7, Anaconda, Jupyter Notebook, and Pandas.
+  - Software: Python 3.9.7, Anaconda, Jupyter Notebook, and Pandas.
 
 ## Results
 
