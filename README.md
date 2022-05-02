@@ -30,7 +30,7 @@ In the second analysis, we imported the dependencies and cleaned the data, remov
 
 #### School District Summary from the first analysis
 
-![Alt text](/Resources_/0disctric_summary.png "imagen1")
+![Alt text](/Resources_/0distric_summary.png "imagen1")
 
 
 #### School District Summary from the second analysis
