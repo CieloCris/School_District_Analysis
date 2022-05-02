@@ -100,7 +100,7 @@ We can observe that Thomas High School's 9th-grade data is shown as NaN and was 
 #### School Type and Academic Performance
 ![Alt text](/Resources_/challenge_type_summary.png "imagen12")
 
-After analyzing the previous dataframe, we can say there were no substantial changes in the data, but we can communicate that the budget per student doesn't have a decisive and unique influence on the math and reading scores and the passing percentages. That means that a school spending more per student will not always mean better academic performance.
+After analyzing the previous dataframes, we can say there were no substantial changes in the data, but we can communicate that the budget per student doesn't have a decisive and unique influence on the math and reading scores and the passing percentages. That means that a school spending more per student will not always mean better academic performance.
 
 For instance, in our data, we have Cabrera High School, which is among the top 5 schools with the best academic performance with an Overall Passing Percentage of 91.334769%, and a budget of $592 dollars per student. In contrast, Johnson High School is among the lowest-performing schools, with an Overall Passing of 53.539172% and a per-student budget of $650 dollars.
 
